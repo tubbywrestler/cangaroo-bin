@@ -1,0 +1,14 @@
+name: Sync cangaroo
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    uses: tubbywrestler/aur-bin-chicken/.github/workflows/sync-and-build.yml@master
+    with:
+      aur_pkgbase: cangaroo
+    permissions:
+      contents: write
