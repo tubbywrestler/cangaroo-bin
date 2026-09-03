@@ -16,6 +16,6 @@ pkgbase = cangaroo-bin
 	conflicts = cangaroo
 	options = !debug
 	source = https://github.com/tubbywrestler/cangaroo-bin/releases/download/0.2.2.r64.gca7f907-11/cangaroo-0.2.2.r64.gca7f907-11-x86_64.pkg.tar.zst
-	sha256sums = SKIP
+	sha256sums = d632615ce8605d5a070e30dde32c68c258e5a5d698db3a5bdbc07a261da9cdc7
 
 pkgname = cangaroo-bin

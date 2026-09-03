@@ -22,7 +22,7 @@ depends=(
 )
 
 source=("https://github.com/tubbywrestler/cangaroo-bin/releases/download/${pkgver}-${_pkgrel_src}/cangaroo-${pkgver}-${_pkgrel_src}-x86_64.pkg.tar.zst")
-sha256sums=('SKIP')
+sha256sums=('d632615ce8605d5a070e30dde32c68c258e5a5d698db3a5bdbc07a261da9cdc7')
 
 package() {
     bsdtar -xf "${srcdir}/cangaroo-${pkgver}-${_pkgrel_src}-x86_64.pkg.tar.zst" -C "${pkgdir}" --exclude .PKGINFO --exclude .BUILDINFO --exclude .MTREE
